@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>iACGEngineTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>5BBEF5A11C639E8600CF6E36</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5BEF65B91C66D45A00FC4498</key>
 		<dict>
 			<key>primary</key>
 			<true/>

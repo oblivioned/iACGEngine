@@ -8,12 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		5BBEF5A61C639E8600CF6E36 /* iACGEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BBEF5A51C639E8600CF6E36 /* iACGEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEF65AD1C6633DB00FC4498 /* iAE_Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEF65AC1C6633DB00FC4498 /* iAE_Game.swift */; settings = {ASSET_TAGS = (); }; };
+		5BEF65B11C66340300FC4498 /* mr3DAudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEF65B01C66340300FC4498 /* mr3DAudioController.swift */; settings = {ASSET_TAGS = (); }; };
+		5BEF65B31C6634EC00FC4498 /* mr3DAudioSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEF65B21C6634EC00FC4498 /* mr3DAudioSource.swift */; settings = {ASSET_TAGS = (); }; };
+		5BEF65B51C66356D00FC4498 /* mr3DAudioEngineDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEF65B41C66356D00FC4498 /* mr3DAudioEngineDefine.swift */; settings = {ASSET_TAGS = (); }; };
+		5BEF65BD1C66D45A00FC4498 /* iACGEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEF65BC1C66D45A00FC4498 /* iACGEngineTests.swift */; };
+		5BEF65BF1C66D45A00FC4498 /* iACGEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBEF5A21C639E8600CF6E36 /* iACGEngine.framework */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BEF65C01C66D45A00FC4498 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BBEF5991C639E8600CF6E36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BBEF5A11C639E8600CF6E36;
+			remoteInfo = iACGEngine;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5BBEF5A21C639E8600CF6E36 /* iACGEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iACGEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBEF5A51C639E8600CF6E36 /* iACGEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iACGEngine.h; sourceTree = "<group>"; };
 		5BBEF5A71C639E8600CF6E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BEF65AC1C6633DB00FC4498 /* iAE_Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iAE_Game.swift; sourceTree = "<group>"; };
+		5BEF65B01C66340300FC4498 /* mr3DAudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mr3DAudioController.swift; sourceTree = "<group>"; };
+		5BEF65B21C6634EC00FC4498 /* mr3DAudioSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mr3DAudioSource.swift; sourceTree = "<group>"; };
+		5BEF65B41C66356D00FC4498 /* mr3DAudioEngineDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mr3DAudioEngineDefine.swift; sourceTree = "<group>"; };
+		5BEF65BA1C66D45A00FC4498 /* iACGEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iACGEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEF65BC1C66D45A00FC4498 /* iACGEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iACGEngineTests.swift; sourceTree = "<group>"; };
+		5BEF65BE1C66D45A00FC4498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +47,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BEF65B71C66D45A00FC4498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEF65BF1C66D45A00FC4498 /* iACGEngine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				5BBEF5A41C639E8600CF6E36 /* iACGEngine */,
+				5BEF65BB1C66D45A00FC4498 /* iACGEngineTests */,
 				5BBEF5A31C639E8600CF6E36 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				5BBEF5A21C639E8600CF6E36 /* iACGEngine.framework */,
+				5BEF65BA1C66D45A00FC4498 /* iACGEngineTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -49,6 +82,7 @@
 				5BBEF5AD1C639EB900CF6E36 /* SourceCode */,
 				5BBEF5A51C639E8600CF6E36 /* iACGEngine.h */,
 				5BBEF5A71C639E8600CF6E36 /* Info.plist */,
+				5BEF65AC1C6633DB00FC4498 /* iAE_Game.swift */,
 			);
 			path = iACGEngine;
 			sourceTree = "<group>";
@@ -56,8 +90,28 @@
 		5BBEF5AD1C639EB900CF6E36 /* SourceCode */ = {
 			isa = PBXGroup;
 			children = (
+				5BEF65AE1C6633E200FC4498 /* mr3DAudio */,
 			);
 			name = SourceCode;
+			sourceTree = "<group>";
+		};
+		5BEF65AE1C6633E200FC4498 /* mr3DAudio */ = {
+			isa = PBXGroup;
+			children = (
+				5BEF65B21C6634EC00FC4498 /* mr3DAudioSource.swift */,
+				5BEF65B01C66340300FC4498 /* mr3DAudioController.swift */,
+				5BEF65B41C66356D00FC4498 /* mr3DAudioEngineDefine.swift */,
+			);
+			name = mr3DAudio;
+			sourceTree = "<group>";
+		};
+		5BEF65BB1C66D45A00FC4498 /* iACGEngineTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BEF65BC1C66D45A00FC4498 /* iACGEngineTests.swift */,
+				5BEF65BE1C66D45A00FC4498 /* Info.plist */,
+			);
+			path = iACGEngineTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,16 +146,39 @@
 			productReference = 5BBEF5A21C639E8600CF6E36 /* iACGEngine.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		5BEF65B91C66D45A00FC4498 /* iACGEngineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BEF65C21C66D45A00FC4498 /* Build configuration list for PBXNativeTarget "iACGEngineTests" */;
+			buildPhases = (
+				5BEF65B61C66D45A00FC4498 /* Sources */,
+				5BEF65B71C66D45A00FC4498 /* Frameworks */,
+				5BEF65B81C66D45A00FC4498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BEF65C11C66D45A00FC4498 /* PBXTargetDependency */,
+			);
+			name = iACGEngineTests;
+			productName = iACGEngineTests;
+			productReference = 5BEF65BA1C66D45A00FC4498 /* iACGEngineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		5BBEF5991C639E8600CF6E36 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Martin.Ren;
 				TargetAttributes = {
 					5BBEF5A11C639E8600CF6E36 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = UAL79ZV3ZL;
+					};
+					5BEF65B91C66D45A00FC4498 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = UAL79ZV3ZL;
 					};
@@ -120,12 +197,20 @@
 			projectRoot = "";
 			targets = (
 				5BBEF5A11C639E8600CF6E36 /* iACGEngine */,
+				5BEF65B91C66D45A00FC4498 /* iACGEngineTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5BBEF5A01C639E8600CF6E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEF65B81C66D45A00FC4498 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,10 +224,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BEF65B11C66340300FC4498 /* mr3DAudioController.swift in Sources */,
+				5BEF65B31C6634EC00FC4498 /* mr3DAudioSource.swift in Sources */,
+				5BEF65AD1C6633DB00FC4498 /* iAE_Game.swift in Sources */,
+				5BEF65B51C66356D00FC4498 /* mr3DAudioEngineDefine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEF65B61C66D45A00FC4498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEF65BD1C66D45A00FC4498 /* iACGEngineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BEF65C11C66D45A00FC4498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BBEF5A11C639E8600CF6E36 /* iACGEngine */;
+			targetProxy = 5BEF65C01C66D45A00FC4498 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5BBEF5A81C639E8600CF6E36 /* Debug */ = {
@@ -237,6 +342,25 @@
 		5BBEF5AB1C639E8600CF6E36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iACGEngine/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.iACGEngine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BBEF5AC1C639E8600CF6E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -248,21 +372,25 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		5BBEF5AC1C639E8600CF6E36 /* Release */ = {
+		5BEF65C31C66D45A00FC4498 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = iACGEngine/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = iACGEngineTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.company.iACGEngine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.iACGEngineTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5BEF65C41C66D45A00FC4498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iACGEngineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.iACGEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -286,6 +414,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		5BEF65C21C66D45A00FC4498 /* Build configuration list for PBXNativeTarget "iACGEngineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BEF65C31C66D45A00FC4498 /* Debug */,
+				5BEF65C41C66D45A00FC4498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
